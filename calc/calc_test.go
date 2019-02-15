@@ -18,6 +18,18 @@ func TestCalc(t *testing.T) {
 			expected: "21",
 		},
 		{
+			input:    "1 2 - =",
+			expected: "-1",
+		},
+		{
+			input:    "15 -3 / =",
+			expected: "-5",
+		},
+		{
+			input:    "14 3 / =",
+			expected: "4",
+		},
+		{
 			input:    "   1  2 \n   + \n   =  \n ",
 			expected: "3",
 		},
@@ -32,6 +44,14 @@ func TestCalc(t *testing.T) {
 		{
 			input:    "1 2 + + =",
 			expected: "calc: stack is empty",
+		},
+		{
+			input:    "1 2 +",
+			expected: "calc: EOF",
+		},
+		{
+			input:    "1 2 =",
+			expected: "calc: not a one number in stack",
 		},
 	}
 

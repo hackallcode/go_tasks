@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a2bec878-f19c-4845-8bd0-930922a90f67" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../bugs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bugs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc.go" beforeDir="false" afterPath="$PROJECT_DIR$/calc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/calc_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tree/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calc_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+            <state relative-caret-position="161">
+              <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -25,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calc.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="212">
+              <caret line="77" column="59" lean-forward="true" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -65,7 +67,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -77,6 +78,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -125,34 +127,34 @@
     </list>
   </component>
   <component name="TestHistory">
-    <history-entry file="go_test_calc - 2019.02.15 at 15h 29m 45s.xml">
+    <history-entry file="go_test_calc - 2019.02.15 at 18h 23m 10s.xml">
       <configuration name="go test calc" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_calc - 2019.02.15 at 15h 29m 52s.xml">
+    <history-entry file="go_test_calc - 2019.02.15 at 18h 24m 22s.xml">
       <configuration name="go test calc" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_calc - 2019.02.15 at 15h 30m 40s.xml">
+    <history-entry file="go_test_calc - 2019.02.15 at 18h 24m 38s.xml">
       <configuration name="go test calc" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_calc - 2019.02.15 at 15h 31m 34s.xml">
+    <history-entry file="go_test_calc - 2019.02.15 at 18h 26m 03s.xml">
       <configuration name="go test calc" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_calc - 2019.02.15 at 15h 32m 37s.xml">
+    <history-entry file="go_test_calc - 2019.02.15 at 18h 26m 09s.xml">
       <configuration name="go test calc" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_calc - 2019.02.15 at 15h 32m 53s.xml">
+    <history-entry file="go_test_calc - 2019.02.15 at 18h 26m 37s.xml">
       <configuration name="go test calc" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_calc - 2019.02.15 at 15h 33m 18s.xml">
+    <history-entry file="go_test_calc - 2019.02.15 at 18h 27m 52s.xml">
       <configuration name="go test calc" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_calc - 2019.02.15 at 15h 35m 28s.xml">
+    <history-entry file="go_test_calc - 2019.02.15 at 18h 28m 31s.xml">
       <configuration name="go test calc" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_calc - 2019.02.15 at 15h 36m 08s.xml">
+    <history-entry file="go_test_calc - 2019.02.15 at 18h 30m 03s.xml">
       <configuration name="go test calc" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_calc - 2019.02.15 at 15h 36m 16s.xml">
+    <history-entry file="go_test_calc - 2019.02.15 at 18h 30m 08s.xml">
       <configuration name="go test calc" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
@@ -160,12 +162,12 @@
     <frame x="-6" y="-6" width="1613" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29067525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29453376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -215,15 +217,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calc.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="212">
+          <caret line="77" column="59" lean-forward="true" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/calc_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+        <state relative-caret-position="161">
+          <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
         </state>
       </provider>
     </entry>

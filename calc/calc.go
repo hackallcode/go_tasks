@@ -57,10 +57,10 @@ func Calc(in io.Reader, out io.Writer) (resultErr error) {
 		var input string
 		_, err := fmt.Fscan(in, &input)
 		if err != nil {
-			if err != io.EOF {
-				panic(err)
+			if err == io.EOF && s.count == 0 {
+				return
 			}
-			return
+			panic(err)
 		}
 
 		switch input {
@@ -70,7 +70,13 @@ func Calc(in io.Reader, out io.Writer) (resultErr error) {
 			s.Push(-s.Pop() + s.Pop())
 		case "*":
 			s.Push(s.Pop() * s.Pop())
+		case "/":
+			second := s.Pop()
+			s.Push(int(s.Pop() / second))
 		case "=":
+			if s.count != 1 {
+				panic(errors.New("not a one number in stack"))
+			}
 			_, err = fmt.Fprint(out, s.Pop())
 			if err != nil {
 				panic(err)
