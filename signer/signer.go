@@ -5,6 +5,7 @@ import (
     "sort"
     "strconv"
     "sync"
+    "strings"
 )
 
 const BufferSize = MaxInputDataLen
@@ -84,19 +85,13 @@ func MultiHash(in, out chan interface{}) {
 }
 
 func CombineResults(in, out chan interface{}) {
-    var strings []string
+    var result []string
     for v := range in {
-        strings = append(strings, ToString(v))
+        result = append(result, ToString(v))
     }
-    sort.Strings(strings)
+    sort.Strings(result)
 
-    var result string
-    for _, str := range strings {
-        result += str + "_"
-    }
-    // Delete '_' in the end
-    result = result[:len(result)-1]
-    out <- result
+    out <- strings.Join(result, "_")
 }
 
 func ExecuteFunc(job job, in, out chan interface{}, wg *sync.WaitGroup) {
